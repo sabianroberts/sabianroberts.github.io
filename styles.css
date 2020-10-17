@@ -1,0 +1,93 @@
+/*
+    Sabian Roberts website STYLES file.
+    © 2020 Sabian Roberts
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    margin-bottom: auto;
+    line-height: 28px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+a:focus {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 64px;
+}
+
+header h3 {
+    font-size: 12px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.tab {
+    font-size: 24px;
+    margin: 0 2 0 2;
+    border-bottom: 8px solid blue;
+    transition: padding 0.5s, font-size 0.5s, color 0.5s;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+}
+
+.tab:hover {
+    padding: 24px 72px 12px 72px;
+    font-size: 32px;
+    color: white;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.moddb {
+    align-content: center;
+    text-align: center;
+}
+
+reviews {
+    border: 6px solid white;
+    font-family: Arial;
+}
+
+.review {
+    font-size: 0.75em;
+}
+
+.reviewblock {
+    display: inline-grid;
+}
+
+.zamnhlpoints {
+    display: inline-grid;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
