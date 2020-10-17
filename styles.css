@@ -11,6 +11,10 @@ body {
     line-height: 32px;
 }
 
+small {
+    line-height: 18px;
+}
+
 a {
     transition: font-size 0.5s, color 0.5s;
     color: blue;
@@ -67,6 +71,22 @@ header h3 {
     font-size: 32px;
     color: white;
 }
+
+.tab2 {
+    font-size: 24px;
+    margin: auto auto auto auto;
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+    transition: padding 0.2s, font-size 0.2s, color 0.5s;
+    transition-timing-function: ease-in;
+    text-decoration: none;
+}
+
+    .tab2:hover {
+        padding: 12px 72px 12px 72px;
+        font-size: 32px;
+        color: white;
+    }
 
 h2 {
     font-size: 1.25em;
