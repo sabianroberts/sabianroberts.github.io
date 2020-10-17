@@ -8,7 +8,12 @@ body {
     color: white;
     background-color: black;
     margin-bottom: auto;
-    line-height: 28px;
+    line-height: 32px;
+}
+
+a {
+    transition: font-size 0.5s, color 0.5s;
+    color: blue;
 }
 
 a:visited {
@@ -18,7 +23,8 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: blue;
+    color: white;
+    font-size: 26px;
 }
 
 a:focus {
@@ -49,9 +55,9 @@ header h3 {
 
 .tab {
     font-size: 24px;
-    margin: 0 2 0 2;
-    border-bottom: 8px solid blue;
-    transition: padding 0.5s, font-size 0.5s, color 0.5s;
+    margin: auto auto auto auto;
+    border-bottom: 4px solid blue;
+    transition: padding 0.2s, font-size 0.2s, color 0.5s;
     transition-timing-function: ease-in;
     text-decoration: none;
 }
@@ -90,4 +96,18 @@ reviews {
     align-items: center;
     align-self: center;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    transition: color 0.5s;
+}
+
+footer:hover {
+    color: aqua;
+}
+
+.sc {
+    width: 1280px;
+    height: 720px
 }
