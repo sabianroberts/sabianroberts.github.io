@@ -29,15 +29,18 @@
         <h1>SABIAN ROBERTS</h1>
         <h2>Official Website</h2>
     </header>
-    <audio controls autoplay id="tabaudio" src="sound/tab.wav">
+    <audio autostart="false" id="audio" src="sound/tab.wav">
         Your browser isn't invited for super fun audio time.
     </audio>
+    <!--<iframe allow="autoplay" style="display:none" id="audio" type="audio/mpeg" src="sound/tab.wav">
+    </iframe>-->
+    <script src="tabsound.js"></script>
     <section class="navigation">
-        <a href="index.html" class="tab" id="tab" onmouseenter="playAudio()" style=" padding: 24px 72px 12px 72px; font-size: 32px; color: white;">Home</a>
-        <a href="articles" class="tab" id="tab">Articles</a>
-        <a href="aboutme" class="tab" id="tab">About me</a>
-        <a href="myprojects" class="tab">My projects</a>
-        <a href="contact" class="tab">Contact me</a>
+        <a href="index.html" class="tab" id="tab" onmouseenter="PlaySound()" style=" padding: 24px 72px 12px 72px; font-size: 32px; color: white;">Home</a>
+        <a href="articles" class="tab" id="tab" onmouseenter="PlaySound()">Articles</a>
+        <a href="aboutme" class="tab" id="tab" onmouseenter="PlaySound()">About me</a>
+        <a href="myprojects" class="tab" onmouseenter="PlaySound()">My projects</a>
+        <a href="contact" class="tab" onmouseenter="PlaySound()">Contact me</a>
     </section>
 
     <section class="mainbody">
@@ -72,7 +75,7 @@
             The Resonance Cascade has opened a highway between Black Mesa, New Mexico and Xen, The Border World. Little did Black Mesa and Xen know that that highway also had a roundabout with three exits — the first exit being Xen, the second being Black Mesa, and the third being the Zombies Ate My Neighbours world.
             You play as Zeke. You live in Hell on Earth, constantly sacrificing yourself to save the neighbours from the zombies. Suddenly, one day, you must decide — stay in your horrible world, fighting an endless swarm of zombies, or go to a different one. You are unconsciously forced to move to the new world.
         </p>
-        <a href="https://moddb.com/mods/zombies-ate-my-neighbors-hl-mod"><img src="img/zamnhl.png" alt="Half-Life: Zombies Ate My Neighbours poster" style="display: block; margin-left: auto; margin-right: auto" /></a>
+        <a href="https://moddb.com/mods/zombies-ate-my-neighbors-hl-mod"><img src="http://web.archive.org/web/20121213060512im_/http://www.penglais.org.uk/en/Dept/maths/mathsdept.png" alt="Half-Life: Zombies Ate My Neighbours poster" style="display: block; margin-left: auto; margin-right: auto" /></a>
     </section>
     <footer>
         <p style="font-family: Arial">COPYRIGHT © 2020 SABIAN ROBERTS. ALL RIGHTS RESERVED.</p>
