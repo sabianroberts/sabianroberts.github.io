@@ -5,8 +5,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     margin-bottom: auto;
     line-height: 32px;
     -moz-user-select: -moz-none;
@@ -51,11 +51,11 @@ a:hover, a:active {
 }
 
 header {
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 32px;
 }
 
 header h3 {
@@ -63,23 +63,23 @@ header h3 {
 }
 
 .navigation {
-    text-align: center;
+    text-align: right;
 }
 
 .tab {
-    font-size: 24px;
-    margin: auto auto auto auto;
-    border-bottom: 4px solid blue;
+    font-size: 32px;
+    margin: auto 5px auto 5px;
+    /*border-bottom: 4px solid blue;*/
     transition: padding 0.2s, font-size 0.2s, color 0.5s, font-family 0.5s;
     transition-timing-function: ease-in;
     text-decoration: none;
-    font-family: 'Segoe UI Thin'
+    font-family: 'Segoe UI Thin';
 }
 
 .tab:hover {
-    padding: 24px 72px 12px 72px;
-    font-size: 32px;
-    color: white;
+    padding: 24px 36px 12px 36px;
+    font-size: 36px;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -97,7 +97,7 @@ header h3 {
     .tab2:hover {
         padding: 12px 72px 12px 72px;
         font-size: 32px;
-        color: white;
+        color: black;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -143,6 +143,10 @@ footer:hover {
 .sc {
     width: 1280px;
     height: 720px
+}
+
+.topheader {
+    border-bottom: 1.5px solid orange;
 }
 
 /* Font Families */
