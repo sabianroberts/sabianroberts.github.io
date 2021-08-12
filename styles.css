@@ -1,6 +1,6 @@
 /*
     Sabian Roberts website STYLES file.
-    © 2020 Sabian Roberts
+    Â© 2020 Sabian Roberts
 */
 
 body {
@@ -9,15 +9,6 @@ body {
     background-color: white;
     margin-bottom: auto;
     line-height: 32px;
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    /*
-     Introduced in IE 10.
-     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-   */
-    -ms-user-select: none;
-    user-select: none;
 }
 
 small {
@@ -151,7 +142,7 @@ footer:hover {
 
 /* Font Families */
 @font-face {
-    font-family: 'Segoe UI Thin'; /* I DO NOT OWN THIS FONT — COPYRIGHT © MICROSOFT */
+    font-family: 'Segoe UI Thin'; /* I DO NOT OWN THIS FONT â€” COPYRIGHT Â© MICROSOFT */
     src: url('SegoeUI-Light.woff2') format('woff2'), url('SegoeUI-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
