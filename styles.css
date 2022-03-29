@@ -4,7 +4,7 @@
 */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Conduit ITC', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     background-color: white;
     margin-bottom: auto;
@@ -64,14 +64,14 @@ header h3 {
     transition: padding 0.2s, font-size 0.2s, color 0.5s, font-family 0.5s;
     transition-timing-function: ease-in;
     text-decoration: none;
-    font-family: 'Segoe UI Thin';
+    font-family: 'Conduit ITC';
 }
 
 .tab:hover {
     padding: 24px 36px 12px 36px;
     font-size: 36px;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Conduit ITC', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tab2 {
@@ -82,14 +82,14 @@ header h3 {
     transition: padding 0.2s, font-size 0.2s, color 0.5s, font-family 0.5s;
     transition-timing-function: ease-in;
     text-decoration: none;
-    font-family: 'Segoe UI Thin';
+    font-family: 'Conduit ITC';
 }
 
     .tab2:hover {
         padding: 12px 72px 12px 72px;
         font-size: 32px;
         color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Conduit ITC', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 h2 {
@@ -123,6 +123,7 @@ reviews {
 }
 
 footer {
+    font-family: 'Bahnschrift';
     text-align: center;
     transition: color 0.5s;
 }
@@ -145,6 +146,14 @@ footer:hover {
     font-family: 'Segoe UI Thin'; /* I DO NOT OWN THIS FONT — COPYRIGHT © MICROSOFT */
     src: url('SegoeUI-Light.woff2') format('woff2'), url('SegoeUI-Light.woff') format('woff');
     font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Conduit ITC';
+    src: url('ConduitITC.woff2') format('woff2'), url('ConduitITC.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
